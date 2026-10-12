@@ -1,7 +1,4 @@
 venv/
 __pycache__/
-model/*.joblib
-model/*.pkl
-model/*.json
-data/*.xlsx
 .ipynb_checkpoints/
+data/*.xlsx

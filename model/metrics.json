@@ -1,0 +1,24 @@
+{
+  "intercept": -1.7507034168015672,
+  "coefficients": {
+    "value_for_money": 0.9961033141271429,
+    "ground_service": 0.5353958823120999,
+    "seat_comfort": 0.23713026645840854,
+    "cabin_staff_service": 0.26743776203657943,
+    "food__beverages": 0.2554927134659451
+  },
+  "train": {
+    "MAE": 0.884,
+    "MSE": 1.4702,
+    "RMSE": 1.2125,
+    "R2": 0.8784
+  },
+  "test": {
+    "MAE": 0.8854,
+    "MSE": 1.4951,
+    "RMSE": 1.2227,
+    "R2": 0.8776
+  },
+  "n_train": 39535,
+  "n_test": 9884
+}
