@@ -42,3 +42,4 @@ POST /api/whatif                 body: {"airline":"american-airlines","changes":
 
 Expected training output: Rating = -1.751 + 0.996*value + 0.535*ground + 0.237*seat + 0.267*staff + 0.255*food,
 test R2 0.878, RMSE 1.22.
+# skytrax-rating-app
