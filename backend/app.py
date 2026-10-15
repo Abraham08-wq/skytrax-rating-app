@@ -19,9 +19,11 @@ ROOT = Path(__file__).resolve().parent.parent
 MODEL_DIR = ROOT / "model"
 FRONTEND_DIR = ROOT / "frontend"
 Y_COL = "over_all_rating"
-X_COLS = ["value_for_money", "ground_service", "seat_comfort", "cabin_staff_service", "food__beverages"]
+X_COLS = ["value_for_money", "ground_service", "seat_comfort", "cabin_staff_service", "food__beverages",
+          "inflight_entertainment", "wifi__connectivity"]
 LABELS = {"value_for_money": "Value for money", "ground_service": "Ground service",
-          "seat_comfort": "Seat comfort", "cabin_staff_service": "Cabin staff", "food__beverages": "Food & drinks"}
+          "seat_comfort": "Seat comfort", "cabin_staff_service": "Cabin staff", "food__beverages": "Food & drinks",
+          "inflight_entertainment": "Entertainment", "wifi__connectivity": "Wifi"}
 MIN_REVIEWS = 100        # airlines with fewer reviews are too small to report on
 MIN_PER_YEAR = 15        # years with fewer reviews are left off the trend chart
 

@@ -1,22 +1,32 @@
 {
-  "intercept": -1.7507034168015672,
+  "intercept": -1.7574155602805437,
   "coefficients": {
-    "value_for_money": 0.9961033141271429,
-    "ground_service": 0.5353958823120999,
-    "seat_comfort": 0.23713026645840854,
-    "cabin_staff_service": 0.26743776203657943,
-    "food__beverages": 0.2554927134659451
+    "value_for_money": 0.9949968185840466,
+    "ground_service": 0.5348160137747902,
+    "seat_comfort": 0.23386498323787203,
+    "cabin_staff_service": 0.2673055953737145,
+    "food__beverages": 0.2516669889981334,
+    "inflight_entertainment": 0.01372522896562306,
+    "wifi__connectivity": -0.0012116992154048156
+  },
+  "fill_modes": {
+    "inflight_entertainment": 1.0,
+    "wifi__connectivity": 1.0
+  },
+  "missing_share_before_fill": {
+    "inflight_entertainment": 0.1925,
+    "wifi__connectivity": 0.5423
   },
   "train": {
-    "MAE": 0.884,
-    "MSE": 1.4702,
-    "RMSE": 1.2125,
+    "MAE": 0.8838,
+    "MSE": 1.47,
+    "RMSE": 1.2124,
     "R2": 0.8784
   },
   "test": {
-    "MAE": 0.8854,
-    "MSE": 1.4951,
-    "RMSE": 1.2227,
+    "MAE": 0.8851,
+    "MSE": 1.4942,
+    "RMSE": 1.2224,
     "R2": 0.8776
   },
   "n_train": 39535,
